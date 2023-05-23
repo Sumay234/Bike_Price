@@ -4,5 +4,7 @@ matplotlib
 seaborn
 sklearn
 scikit-learn
+pickel
+
 
 -e .

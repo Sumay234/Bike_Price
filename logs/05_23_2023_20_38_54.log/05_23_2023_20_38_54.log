@@ -1,0 +1,24 @@
+[ 2023-05-23 20:38:57,357 ] 22 root - INFO - Data Ingestion methods Starts
+[ 2023-05-23 20:38:57,376 ] 25 root - INFO - Dataset read as pandas Dataframe
+[ 2023-05-23 20:38:57,428 ] 29 root - INFO - Train Test Split
+[ 2023-05-23 20:38:57,478 ] 35 root - INFO - Ingestion of Data is completed
+[ 2023-05-23 20:38:57,524 ] 75 root - INFO - Read train and test data completed
+[ 2023-05-23 20:38:57,533 ] 76 root - INFO - Train Dataframe Head : 
+                      bike_name     price     city  kms_driven  owner  age  power  brand
+0     Hero HF Deluxe Self 100cc   37300.0   Jhansi     13000.0      2  4.0  100.0      5
+1  Royal Enfield Standard 500cc  115000.0  Gurgaon      6096.0      0  5.0  500.0     17
+2    Royal Enfield Bullet 350cc  115000.0  Gurgaon     23552.0      0  8.0  350.0     17
+3             Bajaj Pulsar 220F   41000.0    Delhi     20000.0      0  6.0  220.0      1
+4            Bajaj Pulsar NS200   42000.0   Mumbai     40000.0      2  6.0  200.0      1
+[ 2023-05-23 20:38:57,533 ] 77 root - INFO - Test Dataframe Head  : 
+                         bike_name     price       city  kms_driven  owner   age  power  brand
+0  Royal Enfield Thunderbird 350cc   55000.0     Jaipur      4779.0      0  11.0  350.0     17
+1               Hero Passion 100cc   18000.0  Hyderabad      3869.0      0  16.0  100.0      5
+2    Triumph Bonneville T100 900cc  640000.0      Delhi      7500.0      2   4.0  900.0     20
+3           Hero Passion Pro 100cc   35000.0     Jaipur     23430.0      0   7.0  100.0      5
+4        Hero HF Deluxe Self 100cc   30000.0   Vadodara     25000.0      0   8.0  100.0      5
+[ 2023-05-23 20:38:57,533 ] 79 root - INFO - Obtaining preprocessing object
+[ 2023-05-23 20:38:57,533 ] 26 root - INFO - Data Transformation initiated
+[ 2023-05-23 20:38:57,533 ] 34 root - INFO - Pipeline Initiated
+[ 2023-05-23 20:38:57,732 ] 96 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2023-05-23 20:38:57,756 ] 108 root - INFO - Preprocessor pickle file saved
