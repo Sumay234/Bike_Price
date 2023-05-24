@@ -1,0 +1,35 @@
+[ 2023-05-24 21:02:10,461 ] 186 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.202.15:5000
+[ 2023-05-24 21:02:10,462 ] 186 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-05-24 21:02:18,816 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:02:18] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:02:18,929 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:02:18] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:02:21,003 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:02:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:02:48,449 ] 69 root - INFO - DataFrame Gathered
+[ 2023-05-24 21:02:48,449 ] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "c:\Users\win11\Project_Bike_Prediction\bike_price\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\win11\Project_Bike_Prediction\bike_price\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\win11\Project_Bike_Prediction\bike_price\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\win11\Project_Bike_Prediction\bike_price\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 33, in predict_datapoint
+    pred = predict_pipline.Predict(final_data)
+AttributeError: 'PredictPipeline' object has no attribute 'Predict'
+[ 2023-05-24 21:02:48,455 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:02:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-05-24 21:06:14,226 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:14] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:06:14,398 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:14] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:06:20,488 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:20] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:06:20,510 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:20] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:06:21,223 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:06:21,242 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:06:21,360 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:06:21,377 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:06:21,526 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:06:21,545 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:06:21,751 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:06:21,774 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:06:21] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -

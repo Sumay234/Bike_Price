@@ -1,0 +1,13 @@
+[ 2023-05-24 21:33:59,165 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-24 21:33:59,175 ] 186 werkzeug - INFO -  * Debugger PIN: 117-978-781
+[ 2023-05-24 21:34:01,637 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:01] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:34:01,652 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:01] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:34:01,684 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:01] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:34:04,154 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:04] "GET /predict HTTP/1.1" 200 -
+[ 2023-05-24 21:34:04,236 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:04] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:34:04,315 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:04] "GET /predict HTTP/1.1" 200 -
+[ 2023-05-24 21:34:16,909 ] 69 root - INFO - DataFrame Gathered
+[ 2023-05-24 21:34:16,909 ] 16 root - INFO - Predict started
+[ 2023-05-24 21:34:18,202 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:18] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-24 21:34:18,217 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:18] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:34:18,254 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:34:18] "GET /predict HTTP/1.1" 200 -

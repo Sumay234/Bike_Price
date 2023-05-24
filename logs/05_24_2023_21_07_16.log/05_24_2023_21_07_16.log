@@ -1,0 +1,6 @@
+[ 2023-05-24 21:07:18,465 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-24 21:07:18,480 ] 186 werkzeug - INFO -  * Debugger PIN: 117-978-781
+[ 2023-05-24 21:07:29,926 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:07:29] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:07:30,068 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:07:30] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:07:30,081 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:07:30] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:09:49,787 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Users\\win11\\Project_Bike_Prediction\\app.py', reloading

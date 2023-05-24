@@ -1,0 +1,5 @@
+[ 2023-05-24 21:10:52,396 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-24 21:10:52,404 ] 186 werkzeug - INFO -  * Debugger PIN: 117-978-781
+[ 2023-05-24 21:10:59,270 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:10:59] "GET / HTTP/1.1" 200 -
+[ 2023-05-24 21:10:59,424 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:10:59] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2023-05-24 21:10:59,467 ] 186 werkzeug - INFO - 127.0.0.1 - - [24/May/2023 21:10:59] "GET / HTTP/1.1" 200 -
