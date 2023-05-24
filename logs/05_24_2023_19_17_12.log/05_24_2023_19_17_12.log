@@ -1,0 +1,27 @@
+[ 2023-05-24 19:17:14,775 ] 22 root - INFO - Data Ingestion methods Starts
+[ 2023-05-24 19:17:14,790 ] 25 root - INFO - Dataset read as pandas Dataframe
+[ 2023-05-24 19:17:14,843 ] 29 root - INFO - Train Test Split
+[ 2023-05-24 19:17:14,890 ] 35 root - INFO - Ingestion of Data is completed
+[ 2023-05-24 19:17:14,932 ] 75 root - INFO - Read train and test data completed
+[ 2023-05-24 19:17:14,935 ] 76 root - INFO - Train Dataframe Head : 
+                         bike_name     price       city  kms_driven  owner  age  power  brand
+0  Royal Enfield Thunderbird 350cc  110000.0      Delhi     13000.0      0  6.0  350.0     17
+1           Bajaj Pulsar NS200 ABS  125000.0  Bangalore      1230.0      0  3.0  200.0      1
+2  Royal Enfield Interceptor 650cc  270000.0  Ahmedabad      6500.0      0  2.0  650.0     17
+3             Bajaj Discover 150cc   19000.0   Vandalur     45000.0      0  7.0  150.0      1
+4               Bajaj CT 100 100cc   35000.0    Gurgaon      6541.0      0  3.0  100.0      1
+[ 2023-05-24 19:17:14,948 ] 77 root - INFO - Test Dataframe Head  : 
+                         bike_name     price       city  kms_driven  owner   age  power  brand
+0         Yamaha YZF-R15 2.0 150cc   60000.0     Mumbai     18200.0      0   9.0  150.0     21
+1                  Benelli TNT 300  225000.0    Chennai     13000.0      0   5.0  300.0      2
+2           Bajaj Pulsar RS200 ABS  103700.0  Ghaziabad     18023.0      0   5.0  200.0      1
+3           Hero Karizma ZMR 223cc   57000.0      Delhi      1500.0      0  11.0  223.0      5
+4  Royal Enfield Thunderbird 350cc   90000.0  Bangalore     34276.0      0   8.0  350.0     17
+[ 2023-05-24 19:17:14,948 ] 79 root - INFO - Obtaining preprocessing object
+[ 2023-05-24 19:17:14,948 ] 26 root - INFO - Data Transformation initiated
+[ 2023-05-24 19:17:14,948 ] 34 root - INFO - Pipeline Initiated
+[ 2023-05-24 19:17:15,141 ] 96 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2023-05-24 19:17:15,166 ] 108 root - INFO - Preprocessor pickle file saved
+[ 2023-05-24 19:17:15,167 ] 29 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-05-24 19:17:38,393 ] 51 root - INFO - Model Report : ({'LinearRegression': -1.4398383836673567e+25, 'Ridge': 0.8293976390627094, 'Lesso': 0.884735858877514, 'Elastic': 0.764979539607326, 'DecisionTreeRegressor': 0.9136708122861945, 'RandomForestRegressor': 0.9282674732982565}, {'LinearRegression': 1.0, 'Ridge': 1.0, 'Lesso': 1.0, 'Elastic': 1.0, 'DecisionTreeRegressor': 1.0, 'RandomForestRegressor': 1.0})
+[ 2023-05-24 19:17:38,393 ] 73 root - INFO - Exception occured at Model Training

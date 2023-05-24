@@ -1,0 +1,27 @@
+[ 2023-05-24 19:19:12,693 ] 22 root - INFO - Data Ingestion methods Starts
+[ 2023-05-24 19:19:12,722 ] 25 root - INFO - Dataset read as pandas Dataframe
+[ 2023-05-24 19:19:12,765 ] 29 root - INFO - Train Test Split
+[ 2023-05-24 19:19:12,815 ] 35 root - INFO - Ingestion of Data is completed
+[ 2023-05-24 19:19:12,857 ] 75 root - INFO - Read train and test data completed
+[ 2023-05-24 19:19:12,863 ] 76 root - INFO - Train Dataframe Head : 
+                     bike_name     price        city  kms_driven  owner   age  power  brand
+0  Royal Enfield Classic 350cc  165000.0  Chandigarh     18348.0      0   3.0  350.0     17
+1         TVS Apache RTR 160cc   63000.0      Jaipur      1639.0      0   4.0  160.0     19
+2         TVS Apache RTR 160cc   35000.0       Delhi     14400.0      0   8.0  160.0     19
+3        Hero CBZ Xtreme 150cc   22000.0   Hyderabad      5610.0      0  10.0  150.0      5
+4      Hero Passion Plus 100cc   17200.0     Gurgaon     37250.0      0  17.0  100.0      5
+[ 2023-05-24 19:19:12,873 ] 77 root - INFO - Test Dataframe Head  : 
+                    bike_name    price       city  kms_driven  owner  age  power  brand
+0  TVS Apache RTR 160 4V Disc  65000.0      Delhi     10000.0      2  3.0  160.0     19
+1        TVS Apache RTR 160cc  40200.0  Hyderabad     43000.0      0  7.0  160.0     19
+2          Bajaj Pulsar 150cc  21000.0    Gurgaon     45244.0      0  9.0  150.0      1
+3    Honda CB Hornet 160R STD  51000.0     Indore     24800.0      0  5.0  160.0      6
+4    Hero Splendor Plus 100cc  25000.0    Gurgaon     18456.0      0  8.0  100.0      5
+[ 2023-05-24 19:19:12,874 ] 79 root - INFO - Obtaining preprocessing object
+[ 2023-05-24 19:19:12,874 ] 26 root - INFO - Data Transformation initiated
+[ 2023-05-24 19:19:12,874 ] 34 root - INFO - Pipeline Initiated
+[ 2023-05-24 19:19:13,057 ] 96 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2023-05-24 19:19:13,083 ] 108 root - INFO - Preprocessor pickle file saved
+[ 2023-05-24 19:19:13,088 ] 29 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-05-24 19:19:38,669 ] 51 root - INFO - Model Report : {'LinearRegression': -2.2051229163603336e+25, 'Ridge': 0.8514538972851913, 'Lesso': 0.8986861029971511, 'Elastic': 0.7988334650126774, 'DecisionTreeRegressor': 0.8774980648543282, 'RandomForestRegressor': 0.925092354189618}
+[ 2023-05-24 19:19:38,670 ] 64 root - INFO - Best Model Found , Model Name : RandomForestRegressor , R2 Score : 0.925092354189618
