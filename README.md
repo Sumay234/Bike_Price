@@ -1,3 +1,8 @@
+## About the Projecr:
+This is the the Indian Second-Hande Bike sales Price Prediction Project. In this Project We Predict the Bike Price according
+to there Age,Kms-Ride,Engine-CC and Brand.
+This whole code is done on Modular Form in VsCode and i have also Dockerise the whole Project also.
+
 ## To write in Docker File:
 ```
 FROM python:3.8-slim-buster
